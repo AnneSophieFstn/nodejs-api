@@ -43,7 +43,6 @@ async function auth(req, res) {
           .json({ message: "Email ou mot de passe incorrect" });
       });
     } else {
-      //console.log(res)
       return res
         .status(404)
         .json({ message: "Email ou mot de passe incorrect" });
