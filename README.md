@@ -48,3 +48,8 @@ Renommer le fichier .env.example en .env et renseigner les différentes informat
 
 Les test sont à exécuter sur un logiciel qui va permettre de tester une **API**.
 Pour ma part, j'ai utilisé **POSTMAN**.
+
+Les tests peuvent être lancés à l’aide de la commande:
+
+$ cd ./server/
+$ npm test
